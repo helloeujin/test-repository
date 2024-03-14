@@ -87,3 +87,20 @@ body {
   color: #333;
   letter-spacing: 1px;
 }
+
+.button {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #777;
+  cursor: pointer;
+  transition: all 0.6s;
+}

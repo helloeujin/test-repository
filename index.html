@@ -10,18 +10,22 @@
   </head>
 
   <body>
+    <!-- JS code -->
+    <script src="./main.js"></script>
+
     <div id="location">Seoul</div>
     <div id="day-time">Now</div>
-    <!-- <div id="day-time">Sunday 8:00AM</div> -->
 
+    <!-- weather icon -->
     <div id="weather-icon"></div>
 
+    <!-- temperature -->
     <div id="temperature">
       <span id="degree">30</span><span id="unit">&#8451;</span>
     </div>
 
+    <!-- more information -->
     <div id="more-info">
-      <!--  -->
       <div id="sunrise">
         <div class="more-info-img">
           <img src="./img/sunrise.svg" />
@@ -29,7 +33,7 @@
         <div class="more-info-title">Sunrise</div>
         <div id="sunrise-time" class="more-info-value">6:00</div>
       </div>
-      <!--  -->
+
       <div id="wind">
         <div class="more-info-img">
           <img src="./img/wind.svg" />
@@ -37,7 +41,7 @@
         <div class="more-info-title">Wind</div>
         <div id="wind-speed" class="more-info-value">8 km/h</div>
       </div>
-      <!--  -->
+
       <div id="humidity">
         <div class="more-info-img">
           <img src="./img/humidity.svg" />
@@ -46,5 +50,8 @@
         <div id="humidity-pct" class="more-info-value">61 %</div>
       </div>
     </div>
+
+    <!-- button -->
+    <button onclick="update()" class="button">Update</button>
   </body>
 </html>
